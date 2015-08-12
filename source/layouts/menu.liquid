@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if current_page.data.title %}{{ current_page.data.title }}{% endif %}</title>
+    {% stylesheet_link_tag 'all' 'up-pe/menu' %}
+    {% javascript_include_tag 'all' %}
+    <script type="text/javascript"> // Typekit
+    (function() {
+    var config = {
+      kitId: 'cug4tlt',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+    })();
+    </script>
+  </head>
+  <body class="{% page_classes %}">
+    <header id="up-browser-hdr" class="up-browser-hdr">
+      <a href="#" class="up-browser-page-h">My Project <i class="thin">Prototypes</i></a>
+      <img class="up-upstatement-logo" src="/static/img/upstatement-logo-white-trans.png">
+    </header> <!--up-browser-hdr -->
+    <div class="up-browser-mod">
+      {{ yield }}
+    </div>
+  </body>
+</html>

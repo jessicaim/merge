@@ -1,0 +1,9 @@
+{% comment %}
+This is a sample partial to be included via the `partial` tag. Expects an article via `with`.
+{% endcomment %}
+
+<h3>{{ article.title }}</h3>
+by {{ article.author }}<br/>
+<p>
+  {% lorem paragraphs 4 %}
+</p>

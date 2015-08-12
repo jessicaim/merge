@@ -1,0 +1,36 @@
+/* Sample pages and layout styles. */
+
+body.samples {
+  div, p {
+    margin:1em;
+  }
+  div a {
+    color:blue;
+  }
+}
+
+body.sample_pages_sample-1 {
+  p {
+    font-style:italic;
+  }
+}
+
+body.sample_pages_sample-x {
+  div {
+    &>h1 {
+      font-size:150%;
+    }
+    &>h2 {
+      color:orange;
+    }
+    div {
+      border:1px solid #eee;
+      padding:1em;
+
+      p.note {
+        margin-bottom:0;
+        color:green;
+      }
+    }
+  }
+}

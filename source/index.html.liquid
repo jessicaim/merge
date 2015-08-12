@@ -1,0 +1,16 @@
+---
+layout: menu
+title: Menu
+---
+{% comment %}
+This file auto-generates links to pages that include `menu: true` in their "Front Matter" data (the --- block at the top).
+Feel free to change the logic below and add variables to your pages for use in generating a more complex menu rendering here.
+{% endcomment %}
+<ul class="up-browser-list">
+  <h3 class="up-browser-h">Reading List</h3>
+{% for page in sitemap.resources %}
+  {% if page.data.menu == true %}
+  <li>{% if page.data.title %}{{ page.data.title | link_to: page.url }}{% else %}{{ page.url | link_to: page.url }}{% endif %}</li>
+  {% endif %}
+{% endfor %}
+</ul>
