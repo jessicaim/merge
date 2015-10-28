@@ -155,17 +155,18 @@ body {
 }
 
 .toc-quote {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 110px;
-  line-height: 1.4em;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 900;
+  line-height: 1.1em;
+  text-transform: lowercase;
+  letter-spacing: 5px;
   position: absolute;
-  top: 750px;
+  top: 745px;
   left: 100px;
   width: 50%;
   font-size: 110px;
   font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility;
 }
 
 .logo {
@@ -195,6 +196,12 @@ body {
 
 #feature-bg:last-child {
   overflow: hidden;
+}
+
+#F1-caption-01 {
+  position: absolute;
+  top: 4%;
+  left: 75%;
 }
 
 .feature-01-img {
@@ -280,7 +287,7 @@ body {
 }
 
 #article-01-01 {
-  width: 33%;
+  width: 30%;
   position: absolute;
   top: 36.5%;
   left: 55%;
@@ -291,13 +298,22 @@ body {
 .img-F1-02 {
   border-top: 6px solid #008ac0;
   position: absolute;
-  width: 700px;
-  top: 55%;
+  width: 48%;
+  top: 59.5%;
   left: 0;
+}
+
+.img-F1-03 {
+  border-top: 6px solid #008ac0;
+  position: absolute;
+  width: 37%;
+  top: 70%;
+  left: 52%;
 }
 
 
 
+// GENERAL
 
 
 h1 {
@@ -357,4 +373,21 @@ p:last-child {
   color: #008ac0;
 }
 
+.caption {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
 
+.caption-bold {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  color: #008ac0;
+}
