@@ -1,0 +1,360 @@
+$bg: #fff;
+
+
+body {
+  background-color: $bg;
+  color: #4c4c4c;
+  font-family: "source-serif-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.container {
+  position: relative;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  min-height: 1080px;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  text-align: center;
+}
+
+.down-arrow {
+  font-family: 'Playfair Display', serif;
+  font-size: 150px;
+  font-weight: 900;
+  color: #4c4c4c;
+  display: block;
+  margin-top: 35%;
+}
+
+// TABLE OF CONTENTS
+
+.toc {
+  position: relative;
+  width: 100%;
+  min-height: 1500px;
+  background-color: #000;
+}
+
+.toc img {
+  width: 75%;
+}
+
+.toc-column {
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  left: 60%;
+  width: 440px;
+  z-index: 999;
+  opacity: .9;
+}
+
+.toc-top {
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+      .toc-mag {
+        margin: 110px 0 45px 0;
+      }
+
+            .mag-title {
+              font-family: "source-sans-pro",sans-serif;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 15px;
+              text-transform: uppercase;
+              letter-spacing: 1.2px;
+              display: block;
+            }
+
+            .vol-title {
+              font-family: "source-serif-pro",sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 13px;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              display: block;
+            }
+
+      #sq {
+        width: 120px;
+        height: 32px;
+        background: #000;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+        position: relative;
+      }
+
+      #sq:before {
+        content: "";
+        width: 120px;
+        height: 32px;
+        background: #000;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        display: block;
+        top: -60px;
+      }
+
+      #sq:after {
+        content: "";
+        width: 120px;
+        height: 32px;
+        background: #000;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 30px;
+      }
+
+.toc-title {
+  display: block;
+  background-color: #fff;
+  margin: 1.5em 0 1.5em 0;
+  padding: 21px 40px 25px 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  border-top: 6px solid #fff;
+}
+
+      .toc-article {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 2px;
+        font-size: 15px;
+      }
+
+      .toc-description {
+        font-family: "source-sans-pro",sans-serif;
+        font-style: italic;
+        font-weight: 200;
+      }
+
+.toc-title:hover {
+  border-top: 6px solid #cc2650;
+}
+
+.toc-quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 1.4em;
+  position: absolute;
+  top: 750px;
+  left: 100px;
+  width: 50%;
+  font-size: 110px;
+  font-variant-ligatures: common-ligatures;
+}
+
+.logo {
+  z-index: 50;
+  width: 350px;
+  position: absolute;
+  left: 140px;
+  top: 3200px;
+}
+
+
+
+// FEATURE 1: FIND & TAKE
+
+.feature-01 {
+  position: relative;
+  height: 3000px;
+}
+
+#feature-bg {
+  background-image: linear-gradient(-90deg, #29607c, #003756);
+  position: relative;
+  width: 72%;
+  height: 27%;
+  overflow: visible;
+}
+
+#feature-bg:last-child {
+  overflow: hidden;
+}
+
+.feature-01-img {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 28%;
+  z-index: 10;
+}
+
+.feature-01-img-02 {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  left: -8%;
+  z-index: 5;
+}
+
+.f1-introduction {
+  position: absolute;
+  top: 32.5%;
+  left: 10%;
+  width: 600px;
+  margin-bottom: 50px;
+  float: left;
+  clear: left;
+}
+
+.f1-introduction p {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  line-height: 1.4em;
+  color: #008ac0;
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-left: 18px;
+  border-left: 3px solid #008ac0;
+  width: 300px;
+}
+
+.img-F1-01 {
+  width: 65%;
+  border-top: 6px solid #008ac0;
+}
+
+.find {
+  font-family: 'Playfair Display', serif;
+  font-size: 150px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f5c713;
+  position: absolute;
+  top: 2.75%;
+  left: 10.5%;
+  font-variant-ligatures: common-ligatures;
+  z-index: 100;
+}
+
+.ampersand {
+  font-family: 'Playfair Display', serif;
+  font-size: 600px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f5c713;
+  position: absolute;
+  top: 26%;
+  left: 39%;
+  z-index: 100;
+}
+
+
+.take {
+  font-family: 'Playfair Display', serif;
+  font-size: 150px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f5c713;
+  position: absolute;
+  top: 32.5%;
+  left: 68%;
+}
+
+#article-01-01 {
+  width: 33%;
+  position: absolute;
+  top: 36.5%;
+  left: 55%;
+  border-left: 1px solid #008ac0;
+  padding-left: 12pt;
+}
+
+.img-F1-02 {
+  border-top: 6px solid #008ac0;
+  position: absolute;
+  width: 700px;
+  top: 55%;
+  left: 0;
+}
+
+
+
+
+
+h1 {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #4c4c4c;
+  font-size: 24px;
+}
+
+.content {
+  width: 35%;
+  margin: 0 0 0 50%;
+  padding-left: 18px;
+  border-left: 1px solid #bbb;
+}
+
+
+.display {
+  font-family: 'Playfair Display', serif;
+  font-size: 264px;
+  font-style: italic;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+
+.display-bold {
+  font-family: 'Playfair Display', serif;
+  font-size: 264px;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+
+.display-black {
+  font-family: 'Playfair Display', serif;
+  font-size: 264px;
+  font-weight: 900;
+  color: #4c4c4c;
+}
+
+p {
+  margin-bottom: 9pt;
+}
+
+p:first-child {
+  margin-top: -6px;
+}
+
+p:last-child {
+  margin-bottom: -6px;
+}
+
+.lead-in {
+  font-family: "source-sans-pro",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #008ac0;
+}
+
+
