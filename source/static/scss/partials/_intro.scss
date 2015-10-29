@@ -28,13 +28,11 @@ body {
 }
 
 .down-arrow {
-  font-family: 'Playfair Display', serif;
-  font-size: 150px;
-  font-weight: 900;
-  color: #4c4c4c;
-  display: block;
-  margin-top: 35%;
+  margin-top: 20%;
+  height: 15%;
+  width: 15%;
 }
+
 
 // TABLE OF CONTENTS
 
@@ -192,6 +190,7 @@ body {
   width: 72%;
   height: 27%;
   overflow: visible;
+  z-index: -1;
 }
 
 #feature-bg:last-child {
@@ -300,6 +299,19 @@ body {
   padding-left: 12pt;
 }
 
+#F1-caption-set1 {
+  margin-left: 18%;
+  margin-top: -23%;
+  margin-bottom: 22%;
+}
+
+#F1-caption-set1 div {
+  width: 11%;
+  float: left;
+  margin-right: 2%
+}
+
+
 #F1-img-set1 {
   position: relative;
   width: 100%;
@@ -385,7 +397,7 @@ p:last-child {
 .caption {
   font-family: "source-sans-pro",sans-serif;
   font-style: italic;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 1.4em;
 }
@@ -393,7 +405,7 @@ p:last-child {
 .caption-bold {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
