@@ -242,6 +242,7 @@ body {
   padding-left: 18px;
   border-left: 3px solid #008ac0;
   width: 300px;
+  margin-bottom: 22px;
 }
 
 .img-F1-01 {
@@ -277,13 +278,13 @@ body {
 
 .take {
   font-family: 'Playfair Display', serif;
-  font-size: 150px;
+  font-size: 175px;
   font-weight: 700;
   font-style: italic;
   color: #f5c713;
   position: absolute;
-  top: 32.5%;
-  left: 68%;
+  top: 32%;
+  left: 67%;
 }
 
 #article-01-01 {
@@ -295,20 +296,24 @@ body {
   padding-left: 12pt;
 }
 
+#F1-img-set1 {
+  position: absolute;
+  width: 100%;
+  top: 58%;
+  left: 0;
+  float: left;
+  clear: both;
+}
+
 .img-F1-02 {
   border-top: 6px solid #008ac0;
-  position: absolute;
   width: 48%;
-  top: 59.5%;
-  left: 0;
+  margin-right: 3%;
 }
 
 .img-F1-03 {
   border-top: 6px solid #008ac0;
-  position: absolute;
   width: 37%;
-  top: 70%;
-  left: 52%;
 }
 
 
