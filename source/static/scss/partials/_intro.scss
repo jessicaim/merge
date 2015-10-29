@@ -11,13 +11,6 @@ body {
   line-height: 1.4em;
 }
 
-.container {
-  position: relative;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .title {
   min-height: 1080px;
   margin-top: 25%;
@@ -31,6 +24,7 @@ body {
   margin-top: 20%;
   height: 15%;
   width: 15%;
+  opacity: .65;
 }
 
 
@@ -239,10 +233,11 @@ body {
   font-size: 21px;
   text-transform: uppercase;
   padding-left: 18px;
-  border-left: 3px solid #008ac0;
+  border-left: 4px solid #008ac0;
   width: 300px;
   margin-bottom: 22px;
 }
+
 
 .img-F1-01 {
   width: 65%;
@@ -291,9 +286,9 @@ body {
         display: inline-block;
       }
 
-#article-01-01 {
+#F1-01-01 {
   display: inline-block;
-  width: 30%;
+  width: 28%;
   margin-left: 55%;
   border-left: 1px solid #008ac0;
   padding-left: 12pt;
@@ -302,7 +297,7 @@ body {
 #F1-caption-set1 {
   margin-left: 18%;
   margin-top: -23%;
-  margin-bottom: 22%;
+  margin-bottom: 370px;
 }
 
 #F1-caption-set1 div {
@@ -318,6 +313,7 @@ body {
   top: -250px;
   float: left;
   clear: both;
+  margin-bottom: -10%;
 }
 
 .img-F1-02 {
@@ -329,6 +325,33 @@ body {
 .img-F1-03 {
   border-top: 6px solid #008ac0;
   width: 37%;
+}
+
+.small-quote {
+  float: right;
+  margin-right: 25%;
+  width: 19%;
+  font-family: "source-sans-pro",sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4em;
+}
+
+.small-quotation {
+  display: block;
+  font-family: "source-sans-pro",sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  color: #008ac0;
+  margin-bottom: -9px;
+}
+
+#F1-01-02 {
+  display: inline-block;
+  width: 28%;
+  margin-left: 17%;
+  border-left: 1px solid #008ac0;
+  padding-left: 12pt;
 }
 
 
@@ -344,21 +367,6 @@ h1 {
   font-size: 24px;
 }
 
-.content {
-  width: 35%;
-  margin: 0 0 0 50%;
-  padding-left: 18px;
-  border-left: 1px solid #bbb;
-}
-
-
-.display {
-  font-family: 'Playfair Display', serif;
-  font-size: 264px;
-  font-style: italic;
-  font-weight: 400;
-  color: #4c4c4c;
-}
 
 .display-bold {
   font-family: 'Playfair Display', serif;
@@ -392,6 +400,10 @@ p:last-child {
   font-style: normal;
   font-weight: 700;
   color: #008ac0;
+  border-left: 4px solid #008ac0;
+  padding-left: 12px;
+  margin-left: -18px;
+  padding-bottom: 19px;
 }
 
 .caption {
@@ -411,4 +423,41 @@ p:last-child {
   letter-spacing: 1px;
   line-height: 1.4em;
   color: #008ac0;
+}
+
+.video-container {
+  background-color: #333;
+  height: 650px;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-top: 6%;
+}
+
+#F1-vid-01 {
+  margin: 0 auto;
+  display: block;
+}
+
+.video-caption {
+  display: inline-block;
+  width: 10%;
+  text-align: left;
+  font-family: "source-sans-pro",sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #fff;
+  margin-left: 2%;
+}
+
+.video-caption span {
+  display: block;
+  margin-bottom: 5%;
+}
+
+
+#container {
+  margin: 5%;
+  height: 100px;
 }
