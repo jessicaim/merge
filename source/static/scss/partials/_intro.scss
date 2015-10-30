@@ -292,14 +292,15 @@ body {
   padding-left: 12pt;
 }
 
-#F1-caption-set1 {
+#F1-caption-set-01 {
+  padding-left: 12pt;
   margin-bottom: 275px;
 }
 
-#F1-caption-set1 div {
+#F1-caption-set-01 div {
   width: 25%;
   float: left;
-  margin-right: 2%
+  margin-right: 12pt;
 }
 
 
@@ -343,6 +344,64 @@ body {
   padding-left: 12pt;
 }
 
+.img-F1-04 {
+  border-top: 6px solid #008ac0;
+  float: left;
+  margin-right: 12pt;
+  width: 75%;
+}
+
+#F1-caption-02 {
+  float: left;
+  margin-left: 12pt;
+  margin-top: 55%;
+}
+
+#F1-quote-01 {
+  overflow: visible;
+  margin-left: -90%;
+}
+
+#F1-caption-set-02 {
+  margin-top: 1.4%;
+}
+
+
+#F1-caption-set-02 div {
+  width: 20%;
+  float: left;
+  margin-right: 12pt;
+}
+
+#F1-caption-set-02 span {
+  display: block;
+  margin-left: -8px;
+}
+
+.img-F1-05 {
+  border-top: 6px solid #008ac0;
+  overflow: visible;
+  margin-top: 5%;
+  margin-left: -15%;
+}
+
+#F1-sm-quote-02 {
+  padding-left: 12pt;
+  margin-top: 15%;
+}
+
+#F1-caption-set-03 {
+  padding-left: 12pt;
+  margin-top: 5%;
+}
+
+#F1-01-04 {
+  display: inline-block;
+  border-left: 1px solid #008ac0;
+  padding-left: 12pt;
+  margin-top: -34.5%;
+}
+
 
 // RIGHT
 
@@ -357,9 +416,11 @@ body {
 .F1-left {
   width: 28%;
   margin-left: 17%;
-  margin-top: -37%;
 }
 
+.F1-left > #F1-caption-set-01 {
+  margin-top: -700px;
+}
 
 // GENERAL
 
@@ -419,6 +480,10 @@ p:last-child {
   line-height: 1.4em;
 }
 
+.caption span {
+  display: block;
+}
+
 .caption-bold {
   font-family: "source-sans-pro",sans-serif;
   font-style: normal;
@@ -445,6 +510,17 @@ p:last-child {
   font-size: 42px;
   color: #008ac0;
   margin-bottom: -9px;
+}
+
+.big-quote {
+  font-family: "source-sans-pro",sans-serif;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 1.3em;
+  color: #008ac0;
+  background-color: #fff;
+  display: inline-block;
+  padding: 1% 3% 1% 0;
 }
 
 .video-container {
