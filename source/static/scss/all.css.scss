@@ -2,10 +2,10 @@
 @import "up-pe/normalize";
 
 
-@import "partials/intro";
-@import "partials/ad";
+@import "partials/variables";
 
-$bg: #fff;
+@import "partials/intro";
+
 
 
 body {

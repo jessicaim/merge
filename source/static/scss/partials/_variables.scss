@@ -1,0 +1,26 @@
+
+// universal
+
+$bg: #fff;
+$feat-one-spot: #008ac0;
+
+// layout
+
+$mobile:                     300px;
+$phablet:                    400px;
+$tablet:                     600px;
+$tablet-xl:                  768px;
+$desktop:                    1070px;
+$desktop-xl:                 1320px;
+$desktop-xxl:                1800px;
+
+
+
+
+
+// mixins
+
+@mixin border-left($spot-color: $feat-one-spot) {
+  border-left: 1px solid $spot-color;
+  padding-left: 12pt;
+}
